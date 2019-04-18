@@ -1,1 +1,1 @@
-# socket-programming
+# Dizajnimi-Klient-Server
