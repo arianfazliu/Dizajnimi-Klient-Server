@@ -61,7 +61,7 @@ while True:
         print("Kerkesat duhet te shkruhen me shkronja te medha(UPPER-CASE)")
         continue
     s.send(kerkesa.encode("ASCII"))
-    response = s.recv(1024)
+    response = s.recv(128)
     print("Pergjigja: " + response.decode("ASCII"))
     print("***************************************")
 s.close()
