@@ -62,7 +62,7 @@ while True:
 
 
     c.send(kerkesa.encode("ASCII"))
-    response = c.recv(1024)
+    response = c.recv(128)
     print("Pergjigja: " + response.decode("ASCII"))
     print("***************************************")
 c.close()
