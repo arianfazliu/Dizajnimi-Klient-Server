@@ -164,7 +164,7 @@ class ClientThread(Thread):
     def run(self):
         while True:
             try:
-                data = conn.recv(1024)
+                data = conn.recv(128)
             except socket.error:
                 print("--------------Duke pritur per kerkesa te klienteve--------------")
                 break
